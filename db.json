@@ -1,0 +1,120 @@
+{
+  "user": [
+    {
+      "id": "adminuser",
+      "name": "Ashu",
+      "password": "admin123",
+      "email": "ashu@gmail.com",
+      "phone": "8989898989",
+      "country": "usa",
+      "address": "",
+      "role": "admin",
+      "gender": "female"
+    },
+    {
+      "id": "ntuser",
+      "name": "Fullname",
+      "password": "ntuser",
+      "email": "email@email.com",
+      "phone": "56778889989",
+      "country": "singapore",
+      "address": "address1\naddrees2",
+      "role": "user",
+      "gender": "male"
+    },
+    {
+      "id": "admin",
+      "password": "admin123",
+      "name": "Admin User",
+      "email": "admin@example.com"
+    },
+    {
+      "id": "user",
+      "name": "ashwini",
+      "password": "user123",
+      "email": "aniket@gmail.com",
+      "phone": "8989898989",
+      "country": "india",
+      "address": "",
+      "gender": "female"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "25ce"
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "e53a"
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false,
+      "id": "add2"
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false,
+      "id": "52cd"
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "Ashwini Surendra Dhenge",
+      "email": "ashwinidhenge121@gmail.com.com",
+      "id": "8caa"
+    },
+    {
+      "code": 2,
+      "name": "Aniket Potbhare",
+      "email": "aniketpotbhare@gmail.com",
+      "id": "2720"
+    },
+    {
+      "code": 3,
+      "name": "Fliffy Rabbi",
+      "email": "babyfliffycom",
+      "id": "ab7f"
+    },
+    {
+      "code": 5,
+      "name": "Sakahi Patil",
+      "email": "sakshipatil@g.com",
+      "id": "1ba8"
+    },
+    {
+      "id": "3b9b",
+      "code": 6,
+      "name": "New Customer1",
+      "email": "new1@in.com"
+    },
+    {
+      "id": "d0d6",
+      "code": 6,
+      "name": "New Customer2",
+      "email": "new2@in.com"
+    },
+    {
+      "id": "8dff",
+      "code": 7,
+      "name": "New Customer3",
+      "email": "new3@in.com"
+    }
+  ]
+}
